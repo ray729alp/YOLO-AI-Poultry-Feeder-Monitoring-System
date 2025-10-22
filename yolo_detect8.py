@@ -19,9 +19,9 @@ os.makedirs('templates', exist_ok=True)
 # Email Configuration (REPLACE WITH YOUR ACTUAL CREDENTIALS)
 SMTP_SERVER = 'smtp.gmail.com'  # Example for Gmail
 SMTP_PORT = 587
-EMAIL_ADDRESS = 'rayclement09@gmail.com'
-EMAIL_PASSWORD = 'wbfkwmltiahlerie'  # Use app password for Gmail
-RECIPIENT_EMAIL = 'rayclement03@gmail.com'
+EMAIL_ADDRESS = 'example123@gmail.com'
+EMAIL_PASSWORD = 'abc123456789'  # Use app password for Gmail
+RECIPIENT_EMAIL = 'example567@gmail.com'
 
 def send_email(subject, body):
     try:
